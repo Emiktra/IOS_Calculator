@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-flow: column nowrap;
+}
+#screen{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4rem;
+    padding: 10px;
+    overflow: hidden;
+}
+main{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+#numpad{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 10px;
+    background-color: black;
+}
+.inputKeys{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    margin: 0px 3px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    border: none;
+    font-weight: 600;
+}
+#clear, #multiply, #minus, #plus, #equal{
+    background-color: #FF9500;
+    color: white;
+}
+#clearAll, #percent, #divide{
+    background-color: #D4D4D2;
+}
+#seven, #eight, #nine, #four, #five, #six, #one, #two, #three, #zero, #dot{
+    background-color: #1C1C1C;
+    color: white;
+}
+#zero{
+    width: 125px;
+    text-align: left;
+    padding-left: 20px;
+}
